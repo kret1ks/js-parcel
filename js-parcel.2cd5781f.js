@@ -714,13 +714,13 @@ function hmrAccept(bundle /*: ParcelRequire */ , id /*: string */ ) {
 }
 
 },{}],"dqlVI":[function(require,module,exports,__globalThis) {
-var _calculator = require("./js/calculator");
-console.log("\u0434\u043E\u0434\u0430\u0432\u0430\u043D\u043D\u044F:", (0, _calculator.calculator)(10, 5));
-console.log("\u0432\u0456\u0434\u043D\u0456\u043C\u0430\u043D\u043D\u044F:", (0, _calculator.subtract)(100, 5));
-console.log("\u043C\u043D\u043E\u0436\u0435\u043D\u043D\u044F:", (0, _calculator.multiply)(10, 5));
-console.log("\u0434\u0456\u043B\u0435\u043D\u043D\u044F:", (0, _calculator.divide)(10, 2));
+var _calculatorJs = require("./js/calculator.js");
+console.log("\u0434\u043E\u0434\u0430\u0432\u0430\u043D\u043D\u044F:", (0, _calculatorJs.calculator)(10, 5));
+console.log("\u0432\u0456\u0434\u043D\u0456\u043C\u0430\u043D\u043D\u044F:", (0, _calculatorJs.subtract)(100, 5));
+console.log("\u043C\u043D\u043E\u0436\u0435\u043D\u043D\u044F:", (0, _calculatorJs.multiply)(10, 5));
+console.log("\u0434\u0456\u043B\u0435\u043D\u043D\u044F:", (0, _calculatorJs.divide)(10, 2));
 
-},{"./js/calculator":"hfT1R"}],"hfT1R":[function(require,module,exports,__globalThis) {
+},{"./js/calculator.js":"hfT1R"}],"hfT1R":[function(require,module,exports,__globalThis) {
 var parcelHelpers = require("@parcel/transformer-js/src/esmodule-helpers.js");
 parcelHelpers.defineInteropFlag(exports);
 parcelHelpers.export(exports, "calculator", ()=>calculator);
