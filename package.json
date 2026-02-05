@@ -20,7 +20,7 @@
   "bugs": {
     "url": "https://github.com/kret1ks/js-parcel/issues"
   },
-  "homepage": "https://github.com/kret1ks/js-parcel#readme",
+  "homepage": "https://kret1ks.github.io/js-parcel/",
   "devDependencies": {
     "gh-pages": "^6.3.0",
     "parcel": "^2.16.4"
